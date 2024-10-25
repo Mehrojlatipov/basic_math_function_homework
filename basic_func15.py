@@ -8,4 +8,7 @@ def main(a, b):
      Qaytaradi:
      int: natija.
      '''
-    return
+    y = a % b
+    x = pow (y,3)
+    return x
+print (main(15,4))
