@@ -1,3 +1,4 @@
+import math
 def main(a, b):
     '''logarifm a asosga ko'r b ning qiymatini toping.
     
@@ -8,4 +9,6 @@ def main(a, b):
      Qaytaradi:
      int: natija.
      '''
-    return
+    x = math.log(b,a)
+    return x 
+print (main(10,100))
