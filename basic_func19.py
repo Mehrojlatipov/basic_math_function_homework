@@ -8,4 +8,7 @@ def main(a, b):
      Qaytaradi:
      int: natija.
      '''
-    return
+   return abs (a - b)
+print (main(-3,5))
+print (main(3.1,5.6))
+print (main(6,42))
