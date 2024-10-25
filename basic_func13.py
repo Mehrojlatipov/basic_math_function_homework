@@ -1,3 +1,4 @@
+import math
 def main(a):
     '''sonning kvadrat ildizini toping va uni qaytaring.
     
@@ -7,4 +8,7 @@ def main(a):
      Qaytaradi:
      float: natija qiymat.
      '''
-    return
+    x = math.sqrt(a)
+    return x
+print (main(64))
+print (main(81))
