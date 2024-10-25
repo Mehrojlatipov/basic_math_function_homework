@@ -8,4 +8,7 @@ def main(a, b):
      Qaytaradi:
      int: natija.
      '''
-    return 
+    y = (a / b)
+    x = round (y,2)
+    return x
+print (main(9.2255,3.1164))
