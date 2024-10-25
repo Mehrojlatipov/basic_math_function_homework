@@ -7,4 +7,7 @@ def main(a):
      Qaytaradi:
      int: absolute qiymat.
     '''
-    return
+
+    return abs (a)
+print (main(-17))
+print (main(17))
